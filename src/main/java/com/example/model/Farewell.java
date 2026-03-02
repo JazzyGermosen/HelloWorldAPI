@@ -21,4 +21,12 @@ public class Farewell {
     public void setFarewell(String farewell) {
         this.farewell = farewell;
     }
+
+    @Override
+    public String toString() {
+        return "Farewell{" +
+                "farewellId=" + farewellId +
+                ", farewell='" + farewell + '\'' +
+                '}';
+    }
 }

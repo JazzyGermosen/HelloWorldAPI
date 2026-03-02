@@ -25,4 +25,12 @@ public class Greeting {
     public void setGreeting(String greeting) {
         this.greeting = greeting;
     }
+
+    @Override
+    public String toString() {
+        return "Greeting{" +
+                "greetId=" + greetId +
+                ", greeting='" + greeting + '\'' +
+                '}';
+    }
 }
