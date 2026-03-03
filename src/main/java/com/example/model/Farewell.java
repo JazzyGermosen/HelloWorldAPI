@@ -13,6 +13,9 @@ public class Farewell {
         return farewellId;
     }
 
+    public void setFarewellId(int farewellId) {
+        this.farewellId = farewellId;
+    }
 
     public String getFarewell() {
         return farewell;
